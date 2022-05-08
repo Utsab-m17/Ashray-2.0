@@ -1,0 +1,160 @@
+/* log in */
+#LogIn{
+    position: absolute;
+    width: 614px;
+    height: 653.5px;
+    left: 53.87px;
+    top: 348.5px;
+    
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 63px;
+    
+    color: #000000;
+}
+
+
+
+
+
+/* email id */
+#email{
+    position: absolute;
+    width: 564px;
+    height: 52px;
+    left: 62.35px;
+    top: 460px;
+    
+    background: #F4CEAB;
+    border-radius: 10px;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+}
+
+
+
+/* password */
+#password{
+    position: absolute;
+    width: 564px;
+    height: 52px;
+    left: 62.35px;
+    top: 557px;
+    
+    background: #F4CEAB;
+    border-radius: 10px;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+}
+
+
+/* remember me */
+/* position: absolute;
+width: 109px;
+height: 32px;
+left: 93.88px;
+top: 631.25px;
+
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+ identical to box height 
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000; */
+
+
+/* forget password
+position: absolute;
+width: 131px;
+height: 32px;
+left: 486.86px;
+top: 631.25px;
+
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+ identical to box height 
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000; */
+
+
+/* button */
+#logInBtn{
+    position: absolute;
+    width: 227.5px;
+    height: 35px;
+    left: 247.12px;
+    top: 710px;
+    background: #FFA450;
+    border-radius: 10px;
+    border-color: #FFA450;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+}
+
+
+
+/* picture */
+#logIn-img{
+    position: absolute;
+    width: 750px;
+    height: 1024px;
+    left: 758px;
+    top: 0px;
+}
+
+
+/* ashray */
+#ashray{
+    position: absolute;
+    width: 193px;
+    height: 90px;
+    left: 37.35px;
+    top: 37.42px;
+    
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+    color: #DB4358;
+}
+
+/* identical to box height */
+
+
+
+
+/* logo pic */
+#ashray-logo{
+    position: absolute;
+    width: 131.54px;
+    height: 31px;
+    left: 98.81px;
+    top: 37.42px;
+}
+
+
+
+
+
+::placeholder {
+  color: grey;
+}
