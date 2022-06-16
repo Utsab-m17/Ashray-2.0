@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/ashray.css">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+Bengali&family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>Home Page</title>
+  </head>
+  <body class="home-body">
+
+    <!------------  navbar ----------->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <img src="images/ashray logo.png" alt="" id="ashray-logo3">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Be a Owner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle img-vector" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/Vector.png" alt="">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+              </ul>
+            </li>       
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!------------ search bar ------------>
+    <div class="container-1">
+      <form action="" class="search-bar">
+        <span><i class="fa-solid fa-magnifying-glass-location"></i></span>
+        <input type="text" placeholder="Search By Location" name="search-bar">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!------------- image ------------>
+      <div class="img-center">
+        <img src="images/home page.jpg" alt="" class="responsive">
+        <h2 class="main"><%= main %></h2>
+      </div>
+
+    <!---------- favourite cities ----------->
+    <div class="container cards">
+      <div class="row">
+        <h4 style="padding-bottom: 2rem;">Favourite cities to stay</h4>
+        <div class="col-md-3 col-sm-6">
+          <div class="cities">
+            <div class="city-img">
+              <img src="images/kolkata.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="content">
+              <h3 class="city-name">Rent in City of Joy</h3>
+            </div>
+            <div class="content-1">
+              <h3 class="city-name" style="color: #000000;">Kolkata</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="cities">
+            <div class="city-img">
+              <img src="images/howrah.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="content">
+              <h3 class="city-name">Howrah</h3>
+            </div>
+            <div class="content-1">
+              <h3 class="city-name" style="color: #000000;">Howrah</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="cities">
+            <div class="city-img">
+              <img src="images/coachbihar.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="content">
+              <h3 class="city-name">Coachbihar</h3>
+            </div>
+            <div class="content-1">
+              <h3 class="city-name" style="color: #000000;">Coachbihar</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="cities">
+            <div class="city-img">
+              <img src="images/purulia.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="content">
+              <h3 class="city-name">Purulia</h3>
+            </div>
+            <div class="content-1">
+              <h3 class="city-name" style="color: #000000;">Purulia</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!----------- furnished types ----------->
+    <div class="container" style="padding-top: 5rem;">
+      <div class="row">
+        <h4 style="padding: 2rem 1rem;">Furnished type</h4>
+
+        <div class="col-md-4">
+          <div class="furnishedType">
+            <div class="type-img card">
+              <img src="images/unFurnished.jpg" alt="">
+            </div>
+            <div class="content-1">
+              <h3 class="type" style="color: #000000;">Unfurnished</h3>
+            </div>
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="furnishedType">
+            <div class="type-img card">
+              <img src="images/semiFurnished.jpg" alt="">
+            </div>
+            <div class="content-1">
+              <h3 class="type" style="color: #000000;">Semifurnished</h3>
+            </div>
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="furnishedType">
+            <div class="type-img card">
+              <img src="images/furnished.jpg" alt="">
+            </div>
+            <div class="content-1">
+              <h3 class="type" style="color: #000000;">Semifurnished</h3>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

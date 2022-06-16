@@ -1,0 +1,337 @@
+/*------------------------------------------ LOGIN PAGE ------------------------------------- */
+.box-body{
+    height: 100vh;
+    background: #f4ceab72;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+}
+
+.card{
+    overflow: hidden;
+    border: 0;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.345);
+}
+
+.img-end{
+    width: 53%;
+    background: url('/images/login page.png') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-body{
+    padding: 2rem;
+    
+}
+
+.title{
+    margin-bottom: 2rem;
+    
+}
+
+.form-input{
+    position: relative;
+}
+
+.form-input input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    padding-left: 2.5rem;
+    margin-bottom: 1.2rem;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000020;
+    outline: none;
+    background: #F4CEAB;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.form-input span{
+    position:absolute;
+    top: 0.625rem;
+    padding-left: 1rem;
+    color: rgb(75, 73, 73);
+}
+
+.form-input input:focus, .form-input input:valid{
+    border: 2px solid rgb(40, 37, 37);
+    background: #F4CEAB;
+}
+.form-input input:focus::placeholder, #emp{
+    color: grey;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #FFA450 !important;
+    border: 0px;
+}
+
+.form-box button[type="submit"]{
+    margin-top: 0.625rem;
+    border: none;
+    cursor: pointer;
+    background: #FFA450;
+    border-radius: 0.625rem;
+    font-size: 90%;
+
+    font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 32px;
+text-align: center;
+width: 14rem;
+letter-spacing: 0.1rem;
+padding: 0.3rem;
+
+color: #000000;
+}
+
+.form-box button[type="submit"]:hover{
+    background:#ff7c02;
+}
+
+.forget-link, .register-link{
+    color: #FFA450;
+}
+
+.forget-link:hover, .register-link:hover{
+    color:#ff7c02;
+}
+
+#ashray-logo1{
+position: relative;
+width: 10rem;
+height: 5.2rem;
+top: 0rem;
+margin-bottom: 3rem;
+}
+
+#login-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------- SIGN UP PAGE ------------------------------------ */
+
+
+.img-start{
+    width: 55%;
+    background: url('/images/signup page.png') center ;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+#ashray-logo2{
+position: relative;
+width: 9.6rem;
+height: 4.6rem;
+top: 1rem;
+margin-bottom: 1.5rem;
+padding-left: 1rem;
+}
+
+.login-link{
+    color: #FFA450;
+}
+
+.login-link:hover{
+    color:#ff7c02;
+}
+
+.register-button{
+padding-left: 9rem;
+}
+
+.text-secondary{
+    padding-top: 1.8rem;
+}
+
+.card-body2{
+    padding: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+#emp{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    padding-left: 2.5rem;
+    margin-bottom: 1.2rem;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000020;
+    outline: none;
+    background: #F4CEAB;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------- HOME PAGE ------------------------------------ */
+.home-body{
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#ashray-logo3{
+    position: relative;
+    width: 10rem;
+    height: 5.2rem;
+    top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.navbar{
+    padding-right: 2.5rem;
+    background-color: rgb(255, 255, 255);
+}
+.nav-item{
+    padding: 0 1.2rem;
+}
+.img-vector{
+padding: 0rem 0.5rem;
+}
+
+.container-1{
+    width: 100%;
+    padding: 0% 10%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 100%;
+    max-width: 70rem;
+    background: rgba(241, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 6.25rem;
+    padding: 0.3rem 2.45rem 0.3rem 1.25rem;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-left: 2.5rem;
+}
+.search-bar span{
+    position:absolute;
+    color: #C2214C;
+}
+.search-bar button{
+    position: relative;
+    background: #F6A7A7;
+    border: 0;
+    outline: none;
+    border-radius: 3.75rem;
+    padding: 0.5rem 1.5rem;
+    color: #C2214C;
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+    padding: 2% 10% 4%;
+  }
+
+.cities{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.cities img{
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.345);
+}
+.cities .content{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 50%;
+    transform: perspective(25rem) rotateX(-90deg);
+    transform-origin: center top 0;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    border-radius: 1rem;
+}
+.cities:hover .content, .cities:active .content{
+    opacity: 1;
+    transform: perspective(25rem) rotateX(0deg);
+}
+
+.furnishedType{
+    text-align: center;
+    position: relative;
+    padding: 2.5rem;
+}
+
+.main{
+    position:  relative ;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    padding: 0% 10%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.7rem;
+    color: #ff7c02;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+
