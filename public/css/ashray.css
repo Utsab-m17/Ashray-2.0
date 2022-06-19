@@ -335,3 +335,43 @@ padding: 0rem 0.5rem;
 }
 
 
+
+
+
+
+
+/*---------------------------------------- About-page ---------------------------------------*/
+
+
+.about-body{
+    background-image: url('/images/darjeeling.jpg');
+}
+
+
+
+
+
+
+
+/*--------------------------------------- Owner page ------------------------------------ */
+
+#formFile{
+    align-items: center;
+    max-width: 70%;
+    margin-left: 5rem;
+    border-radius: 6.25rem;
+}
+
+formFile:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.property-btn{
+padding-left: 0;
+padding-top: 1rem;
+}
+
+.font-size-09{
+    font-size: .9em;
+}

@@ -23,37 +23,37 @@
   </head>
   <body class="box-body">
 
-    <div class="container forget-container">
+    <div class="container forget-container" style="margin: 5rem;">
         
-        <div class="row px-3">
-            <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
-                <div class="card-body">
+            <div class="row px-3">
+                <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
+                    <div class="card-body">
+    
+                        <img src="images/ashray logo.png" alt="" id="ashray-logo1">
+                        
+    
+                        <h4 class="title text-start mt-4"><%= title %></h4>
+                        <form class="form-box px3" method="post" action="/forget">
+    
+                            <div class="form-input" style="margin: 0rem 2rem;">
+                                <span><i class="fa-solid fa-at"></i></span>
+                                <input type="email" name="email" placeholder="e-mail id" tabindex="10" required>
+                            </div>
+    
+                            <div class="text-center mb-3">
+                                <button type="submit" class="btn btn-block">Send mail</button>
+                            </div>
+    
+                            <hr class="my-4" style="color: #FFA450;">
 
-                    <img src="images/ashray logo.png" alt="" id="ashray-logo1" style="margin-bottom: 2rem ;">
-                    
+                            <div class="mb-2">not registerted yet?<a href="/signup" class="register-link" style="text-decoration: none;">create an account</a></div>
+   
+                        </form>
+                    </div>
 
-                    <h4 class="title text-start mt-4" style="padding-bottom: 0.5rem;"><%= title %></h4>
-                    <form class="form-box px3" method="post" action="/login">
-
-                        <div class="form-input" style=" margin: 0 3rem 2rem 3rem;">
-                            <span><i class="fa-solid fa-at"></i></span>
-                            <input type="email" name="email" placeholder="e-mail id" tabindex="10" required>
-                        </div>
-
-
-                        <div class="text-center mb-3">
-                            <button type="submit" class="btn btn-block">Send reset link</button>
-                        </div>
-
-                        <hr class="my-4" style="color: #FFA450;">
-
-                        <div class="mb-2" style="padding: 1.3rem 0rem;">not registerted yet?<a href="/signup" class="register-link" style="text-decoration: none;">create an account</a></div>
-
-                    </form>
                 </div>
-
             </div>
-        </div>
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
